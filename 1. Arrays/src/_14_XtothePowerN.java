@@ -39,7 +39,7 @@ public class _14_XtothePowerN {
                 ans = ans * x;
                 nn = nn - 1;
             } else {
-                // nn % 2 == 1
+                // nn % 2 == 0
                 x = x * x;
                 nn = nn / 2;
             }
