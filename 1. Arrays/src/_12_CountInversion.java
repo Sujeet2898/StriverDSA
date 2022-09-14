@@ -1,4 +1,6 @@
-
+/*
+Given an integer array nums, return the number of count of inversion in the array.
+A inversion is a pair (i, j) where 0 <= i < j < nums.length and nums[i] > nums[j].
 /*
     Time Complexity : O(N ^ 2)
     Space Complexity : O(1)
