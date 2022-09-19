@@ -24,6 +24,9 @@ public class _5_AddTwoNumbers {
         ListNode(int val) { this.val = val; }
         ListNode(int val,ListNode next) { this.val = val; this.next = next; }
     }
+ 
+    // Time Complexity: O(N) --> Maximum of length of two given linkedlist
+    // Space Complexity: O(1) 
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode();
