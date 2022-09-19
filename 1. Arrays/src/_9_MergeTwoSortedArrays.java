@@ -25,13 +25,6 @@ The result of the merge is [1].
 Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
  */
 
-/*
-    Time complexity: O((M+N) * log(M+N))
-    Space complexity: O(1)
-
-    Where M and N are the number of elements in ARR1 and ARR2 respectively.
-*/
-
 import java.util.Arrays;
 
 public class _9_MergeTwoSortedArrays {
