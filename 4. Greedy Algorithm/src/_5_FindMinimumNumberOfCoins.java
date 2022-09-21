@@ -18,6 +18,9 @@ infinite supply of each of coins{1, 2, 5, 10, 20, 50, 100, 500, 1000} valued coi
 import java.util.ArrayList;
 
 public class _5_FindMinimumNumberOfCoins {
+ 
+    // Time Complexity: O(amount)
+    // Space Complexity: O(1) 
 
     public static int findMinimumCoins(int amount){
         ArrayList<Integer> ans = new ArrayList<>();
