@@ -10,7 +10,12 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class _8_MergeKSortedArrays {
-
+    
+    // Time complexity: O((N * K) * log(K)), Where ‘K’ is the number of arrays and ‘N’ is the average number of elements in every array. 
+    // Reason: We are using the min-heap of size K. Due to the insertion and the removal of elements in the heap, the final complexity of this approach is O(K * N * log(K)).
+    // Space complexity: O(N * K), where ‘K’ is the number of arrays and ‘N’ is the average number of elements in every array.
+    // Reason: Since we are using a min-heap of size K arrays for the average N elements present in every array, therefore, the space complexity of the approach is O(N * K)
+    
     public static class Pair implements Comparable<Pair> {
         int listIndex;
         int dataIndex;
