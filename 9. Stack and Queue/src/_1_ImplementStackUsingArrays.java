@@ -1,3 +1,8 @@
+/*
+Peek, Top, Insert and Delete in O(1)
+Search in O(N)
+ */
+
 public class _1_ImplementStackUsingArrays {
 
     private int data[];
