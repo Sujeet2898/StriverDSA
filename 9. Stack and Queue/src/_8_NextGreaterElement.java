@@ -118,7 +118,6 @@ public class _8_NextGreaterElement {
         // Stack contains the index of the element to be processed
         Stack<Integer> stack = new Stack<>();
 
-        // Process array in circular fashion. Each element will be processed twice
         for (int i = n - 1; i >= 0; i--) {
 
             // 1. Remove top element of the stack if it is smaller or equal to current element of array
