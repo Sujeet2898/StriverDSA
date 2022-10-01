@@ -79,6 +79,8 @@ public class _8_NextGreaterElement {
 /* Input:  1 2 3 4 3
    Output: 2 3 4 -1 4
    ----------------------------------------------------------------------
+   If given array is not circular
+   ----------------------------------------------------------------------
    */
 
     // Brute force approach
