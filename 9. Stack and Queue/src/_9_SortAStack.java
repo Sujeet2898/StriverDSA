@@ -1,5 +1,8 @@
 /*
 Question: Sort a Stack
+-----------------------
+You are given a stack and you need to sort in descending order (small is on the top)
+
  */
 
 import java.util.Stack;
