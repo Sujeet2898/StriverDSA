@@ -18,6 +18,7 @@ public class _6_FindTheIndexOfTheFirstOccurrenceInAString {
         return haystack.indexOf(needle);
     }
 
+    // Using two pointer
     // Time Complexity: O(N)
     // Space Complexity: O(1)
 
@@ -39,6 +40,7 @@ public class _6_FindTheIndexOfTheFirstOccurrenceInAString {
         return -1;
     }
 
+    // Using Rabin-Karp algorithm
     // Time Complexity: O(N+M) --> Since we are traversing the string ‘str’ and ‘ptr’ at most once the time complexity will be O(N + M).
     // Space Complexity: O(1) --> Since, we are not using any extra space.
 
