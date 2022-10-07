@@ -29,6 +29,7 @@ public class _4_RightLeftViewOfBinaryTree {
             left = null;
         }
     }
+          ---------------------------- Recursive Approach ---------------------------
 
     // 1. Right view of binary tree
     // Time Complexity: O(N) -->  We are traversing N nodes and every node is visited exactly once.
