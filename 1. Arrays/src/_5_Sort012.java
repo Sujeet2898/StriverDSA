@@ -9,6 +9,9 @@ Try to solve the problem in 'Single Scan'. ' Single Scan' refers to iterating ov
 import java.util.Scanner;
 
 public class _5_Sort012 {
+    
+    // Time Complexity: O(n) --> Only one traversal of the array is needed.
+    // Space Complexity: O(1) --> No extra space is required.
 
     /*
     Following imp points:
