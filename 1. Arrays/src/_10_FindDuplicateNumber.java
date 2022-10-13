@@ -34,7 +34,6 @@ public class _10_FindDuplicateNumber {
         }
         return ans;
     }
-}
 
 // Time Complexity: O(n) and Space Complexity: O(1)
 Floyd’s Tortoise and Hare Approach
@@ -48,48 +47,31 @@ Now, we reduce the speed of the hare and make it equal to the speed of the torto
 meaning now HARE = ARR[HARE] and TORTOISE = ARR[TORTOISE]. The tortoise starts from the start of the array, while the
 hare starts from the intersection point found in the first phase. Now, the point where the hare and the tortoise
 intersect will be the starting point of the loop which is the repeated element and hence returned.
+--------------------------------------------------
 
-/*
-
-	Time complexity: O(N)
-	Space complexity: O(1)
-
-	Where N is the length of the array.
-
-*/
-
-import java.util.ArrayList;
-
-public class Solution{
-
-    public static int findDuplicate(ArrayList<Integer> arr, int n){
-
-        // Initialise tortoise and hare pointers.
-        int tortoise = arr.get(0);
-        int hare = arr.get(0);
-
-        do{
-
-            // Hare pointer moves twice as fast as tortoise.
-            tortoise = arr.get(tortoise);
-            hare = arr.get(arr.get(hare));
+   public int findDuplicate(int[] nums) {
+        //slow ptr moves 1 step while fast ptr moves 2 steps at a time, if they meet then there is a cycle the starting point of that cycle is the no. which is repeating
+        int slow = nums[0], fast = nums[0];
+        
+        //DETECTING CYCLE -> use floyd's cycle detection
+        while(true){
+            slow = nums[slow]; //moves by 1 step
+            fast = nums[nums[fast]]; //moves by 2 steps
+            
+            if(slow == fast){//cycle detected
+                break;
+            }
         }
-
-        // Find the intersection point of the two runners.
-        while (tortoise != hare);
-
-        // To find the entrance to the cycle tortoise begins from start of array while hare begins from intersection point.
-        tortoise = arr.get(0);
-
-        while (tortoise != hare) {
-
-            // This time both runners move with same speed.
-            tortoise = arr.get(tortoise);
-            hare = arr.get(hare);
+        
+        //DETECTING STARTING POINT OF THE CYCLE
+        //reset slow or fast anyone and then move both by 1 step, wherever they meet is the starting point of the cycle
+        slow = nums[0];
+        
+        while(slow!=fast){
+            slow = nums[slow];
+            fast = nums[fast];
         }
-
-        // Return the entrance to the cycle, which will be the repeated element.
-        return hare;
-
+        
+        return slow; // return fast; //both are pointing at starting pt of cycle
     }
 }
