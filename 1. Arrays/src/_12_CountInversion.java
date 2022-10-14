@@ -1,7 +1,14 @@
 /*
 Question : Count Inversion
-Given an integer array nums, return the number of count of inversion in the array.
-A inversion is a pair (i, j) where 0 <= i < j < nums.length and nums[i] > nums[j].
+Given an array A, count the number of inversions in the array.
+Formally speaking, two elements A[i] and A[j] form an inversion if A[i] > A[j] and i < j
+
+Example:
+
+A : [2, 4, 1, 3, 5]
+Output : 3
+as the 3 inversions are (2, 1), (4, 1), (4, 3).
+
  */
 
 public class _12_CountInversion {
