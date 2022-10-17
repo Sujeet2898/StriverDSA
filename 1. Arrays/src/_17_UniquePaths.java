@@ -14,11 +14,25 @@ Explanation: From the top-left corner, there are a total of 3 ways to reach the 
  */
 
 public class _17_UniquePaths {
+    
+    // Recursive approach
+    // Time Complexity: O(2^n)
+    // Space Complexity: O(2^n)
+    
+    private static int uniquePathsRecursionHelper(int m, int n) {
+        if (m < 0 || n < 0) {
+            return 0;
+        }
+        if (m == 0 || n == 0) {
+            return 1;
+        }
+        return uniquePathsRecursionHelper(m - 1, n) + uniquePathsRecursionHelper(m, n - 1);
+    }
+    
+    // Uding DP (Tabulation)
+    // Time Complexity: O(M * N) --> Since we are running a nested loop  M * N times
+    // Space Complexity: O(M * N) --> Since we are storing elements in a 2-D Array, total space taken will of the order M * N
 
-/*
-Since we are running a nested loop  M * N times, Thus the time complexity will be O(M * N).
-Since we are storing elements in a 2-D Array, total space taken will of the order M * N. Thus the space complexity will be O(M * N).
- */
     public static int uniquePaths1(int m, int n) {
         // Reference table to store subproblems.
         int[][] dp = new int[m][n];
