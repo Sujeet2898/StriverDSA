@@ -44,10 +44,10 @@ Space Complexity: Since we are creating a 2D array, space complexity = O(numRows
     public static ArrayList<ArrayList<Integer>> printPascal2(int n){
         ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
         ArrayList<Integer> row, pre = null;
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             row = new ArrayList<Integer>();
-            for (int j = 0; j <= i; ++j) {
-                if (j == 0 || j == i) {
+            for (int j = 1; j <= i; ++j) {
+                if (j == 1 || j == i) {
                     row.add(1);
                 }
                 else {
