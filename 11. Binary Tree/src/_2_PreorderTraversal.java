@@ -107,7 +107,7 @@ public class _2_PreorderTraversal {
                     curr = curr.left;
                 }
                 //pre.right is current meaning the left tree has been traversed so remove the link and traverse the right subtree now
-                else {
+                if(predecessor.right == curr) {
                     predecessor.right = null; // firstly cut the thread
                     curr = curr.right;
                 }
