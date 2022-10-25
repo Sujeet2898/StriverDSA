@@ -105,7 +105,7 @@ import java.util.Stack;
                     curr = curr.right;
                 }
                 //pre.left is current meaning the right tree has been traversed so remove the link and traverse the left subtree now
-                else {
+                if(predecessor.left == curr) {
                     predecessor.left = null; // firstly cut the thread
                     curr = curr.left;
                 }
