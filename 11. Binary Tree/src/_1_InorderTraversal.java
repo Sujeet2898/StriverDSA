@@ -103,7 +103,7 @@ public class _1_InorderTraversal {
                     curr = curr.left;
                 }
                 //pre.right is current meaning the left tree has been traversed so remove the link and traverse the right subtree now
-                else {
+                if(predecessor.right == curr) {
                     predecessor.right = null; // firstly cut the thread
                     list.add(curr.val);
                     curr = curr.right;
