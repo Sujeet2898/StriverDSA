@@ -92,14 +92,14 @@ public class _1_InorderTraversal {
             else {
                 TreeNode predecessor = curr.left; //mark the left child
 
-                //go to right till we get extreme right node
-                while(predecessor.right != null && predecessor.right != curr) {
-                    predecessor = predecessor.right;
-                }
-
-                // if pre.right is null then link it to current to reach back
-                if(predecessor.right == null){
-                    predecessor.right = curr; // firstly make the thread
+                //go to right till we get extreme right node                                    1
+                while(predecessor.right != null && predecessor.right != curr) {               /   \
+                    predecessor = predecessor.right;                                        2       3
+                }                                                                         /  \
+                                                                                        4     5
+                // if pre.right is null then link it to current to reach back                  \
+                if(predecessor.right == null){                                                  6
+                    predecessor.right = curr; // firstly make the thread                   4 2 5 6 1 3
                     curr = curr.left;
                 }
                 //pre.right is current meaning the left tree has been traversed so remove the link and traverse the right subtree now
