@@ -16,7 +16,7 @@ import java.util.Arrays;
 public class _8_AggressiveCows {
 
     // Brute Force Approach
-    // Time Complexity: O(N^2)
+    // Time Complexity: O((max - min) * N)
     // Space Complexity: O(1) --> No extra space is used.
 
 
@@ -51,7 +51,7 @@ public class _8_AggressiveCows {
     }
 
     // Binary Search Approach
-    // Time Complexity: O(NlogN) --> Binary search takes O(log N). For every search, we iterate over max N stalls to check. Checking for N stalls takes O(N).
+    // Time Complexity: O(log(max - min) * N) --> Binary search takes O(log N). For every search, we iterate over max N stalls to check. Checking for N stalls takes O(N).
     // Space Complexity: O(1) --> No extra space is used.
 
 
