@@ -51,7 +51,7 @@ public class _8_AggressiveCows {
     }
 
     // Binary Search Approach
-    // Time Complexity: O(log(max - min) * N) --> Binary search takes O(log N). For every search, we iterate over max N stalls to check. Checking for N stalls takes O(N).
+    // Time Complexity: O(log(max - min) * N) --> Binary search takes O(log(max - min). For every search, we iterate over max N stalls to check. Checking for N stalls takes O(N).
     // Space Complexity: O(1) --> No extra space is used.
 
 
