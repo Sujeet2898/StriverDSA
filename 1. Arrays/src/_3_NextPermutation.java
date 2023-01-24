@@ -30,7 +30,7 @@ public class _3_NextPermutation {
 
         int left = nums.length - 2; // The array is zero-indexed, so the largest index is nums.length - 1. But we need to reserve the last index for the most right digit, it makes the most left index nums.length - 2.
 
-        // from right to left, search for the first one which is smaller than the right digit.
+        // from right to left, search for the first decreasing element.
         // 1 5 (2) 4 3 2
         while (left >= 0 && nums[left] >= nums[left + 1]) { // so, decrease the left as long as 2, 3, 4 (right digit) is greater or equal to (2)
             left--;
