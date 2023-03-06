@@ -30,7 +30,7 @@ traverse the complete row and complete column of that particular element and set
 all the elements in that row and column.
 
 Time Complexity
-O(N * M * (M + N)) where N & M are dimensions of the given matrix.
+O(N * M * (M + N)) where N & M are dimensions of the given matrix
 We are traversing each element. For each element that is zero, we are traversing its complete row and column. So we have
 O(M * N) elements and for each element, we can traverse a row and a column in the worst case, i.e. O(M + N). So total
 complexity is O(M * N * (M + N).
