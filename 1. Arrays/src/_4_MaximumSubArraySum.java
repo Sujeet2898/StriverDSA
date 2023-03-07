@@ -4,7 +4,7 @@ Problem Statement: Maximum SubArray Sum
 You are given an array (ARR) of length N, consisting of integers. You have to find the sum of the subarray (including empty subarray) having maximum sum among all subarrays.
 A subarray is a contiguous segment of an array. In other words, a subarray can be formed by removing 0 or more integers from the beginning, and 0 or more integers from the end of an array.
 Note :
-The sum of an empty subarray is 0.
+The sum of an empty subarray is 0
 Kadane’s Algorithm:
 The idea of Kadane’s algorithm is to maintain a maximum subarray sum ending at every index ‘i’ of the given array and update the maximum sum obtained by comparing it with the maximum sum of the subarray ending at every index ‘i’.
 Time complexity: O(N), where N is the number of elements in the array, as we traverse the array once to get the maximum subarray sum.
