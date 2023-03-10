@@ -38,7 +38,7 @@ public class _10_FindDuplicateNumber {
 // Time Complexity: O(n) and Space Complexity: O(1)
 Floyd’s Tortoise and Hare Approach
 --------------------------------------------------
-For this approach, we divide the whole process into two phases and use two pointers named tortoise and hare..
+For this approach, we divide the whole process into two phases and use two pointers named tortoise and hare.
 Phase 1(Find the intersection point): The hare would be twice as fast as the tortoise.
 Hence, HARE = ARR[ARR[HARE]] and TORTOISE = ARR[TORTOISE]. Since the tortoise is slow, the hare would catch it
 at some point, this point will be our intersection point.
