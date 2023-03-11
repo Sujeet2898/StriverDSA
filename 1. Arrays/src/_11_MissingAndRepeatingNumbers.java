@@ -2,7 +2,7 @@
     Time complexity: O(N)
     Space complexity: O(1)
 
-    Where N is the length of the given array.
+    Where N is the length of the given array
 
 */
 import java.util.Scanner;
