@@ -68,7 +68,7 @@ Explanation: Element at (2,1) is 29
 
 Input : mat[4][4] = { {10, 20, 30, 40},{15, 25, 35, 45},{27, 29, 37, 48},{32, 33, 39, 50}}; and x = 100
 Output : Element not found
-Explanation: Element 100 does not exist in the matrix.
+Explanation: Element 100 does not exist in the matrix
  */
 
     // Time Complexity: O(n^2)
