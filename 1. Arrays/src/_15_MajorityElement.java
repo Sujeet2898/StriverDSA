@@ -19,7 +19,7 @@ public class _15_MajorityElement {
     public static int findMajority(int[] arr, int n) {
         // Iterating each element in the array/list and check if it is a majority element.
         for (int i = 0; i < n; i++) {
-            // Variable to store the frequency of the current element at index 'i'.
+            // Variable to store the frequency of the current element at index 'i'
             int maxCount = 0;
 
             // Iterating the array/list to count the frequency of the current element at index 'i'.
