@@ -48,7 +48,7 @@ public class _16_MajorityElementII {
         int n = nums.length;
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
-        // Iterating each element in the array to count frequencies.
+        // Iterating each element in the array to count frequencies
         for (int i = 0; i < n; i++) {
             hashMap.put(nums[i], hashMap.getOrDefault(nums[i], 0) + 1);
 
