@@ -154,7 +154,7 @@ Question : MergeSort
             j++;
         }
 
-        // putting element in sorted array in original array
+        // putting element in sorted array in original array 
         for(k = 0; k < temp.length; k++){
             nums[start + k] = temp[k];
         }
