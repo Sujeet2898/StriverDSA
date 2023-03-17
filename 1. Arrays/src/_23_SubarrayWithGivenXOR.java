@@ -1,5 +1,5 @@
 /*
-Question: Subarray with given XOR
+Question: Subarray with given XOR    
 Given an array of integers arr and an integer k.
 Find the total number of subarrays having bitwise XOR of all elements equals to k.
 
