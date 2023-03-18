@@ -31,7 +31,7 @@ public class _2_MiddleOfTheLinkedList {
         int n = 0;
         ListNode temp = head;
 
-        while(temp != null){
+        while(temp != null){   
             n++;
             temp = temp.next;
         }
