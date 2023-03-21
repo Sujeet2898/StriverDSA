@@ -32,7 +32,7 @@ public class _8_LinkedListCycle {
         }
     }
 
-    // 1. Hashing Approach
+    // 1. Hashing Approach  
     // Time Complexity: O(N)  --> Entire list is iterated once.
     // Space Complexity: O(N)  --> All nodes present in the list are stored in a hash table.
 
