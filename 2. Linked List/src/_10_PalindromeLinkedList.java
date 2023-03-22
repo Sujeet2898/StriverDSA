@@ -31,7 +31,7 @@ public class _10_PalindromeLinkedList {
 
         while(temp != null){
             arr.add(temp.val);
-            temp = temp.next;
+            temp = temp.next;  
         }
 
         int j = arr.size()-1;
