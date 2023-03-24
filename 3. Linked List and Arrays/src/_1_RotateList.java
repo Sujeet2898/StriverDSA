@@ -31,7 +31,7 @@ public class _1_RotateList {
         // edge cases
         if(head == null || head.next == null || k == 0){
             return head;
-        }
+        }  
 
         // For k times, we are iterating through the entire list to get the last element and move it to first.
         for (int i = 0; i < k; i++) {
