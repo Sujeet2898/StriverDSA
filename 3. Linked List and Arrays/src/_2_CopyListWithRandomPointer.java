@@ -32,7 +32,7 @@ import java.util.HashMap;
 
 public class _2_CopyListWithRandomPointer {
 
-    class Node {
+    class Node {  
         int val;
         Node next;
         Node random;
