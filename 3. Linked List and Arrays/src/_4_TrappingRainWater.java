@@ -23,7 +23,7 @@ public class _4_TrappingRainWater {
         for (int i = 0; i < n; i++) {
             int j = i;
             int leftMax = 0, rightMax = 0;
-
+  
             // 0 to j
             while (j >= 0) {
                 leftMax = Math.max(leftMax, height[j]);
