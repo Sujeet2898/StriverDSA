@@ -26,7 +26,7 @@ public class _6_MaxConsecutiveOnes {
             }
 
             maximum = Math.max(maximum, count);
-        }
+        }  
         return maximum;
     }
 }
