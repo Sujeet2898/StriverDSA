@@ -28,7 +28,7 @@ safely manage the arrival and departure
 of all trains.
  */
 
-import java.util.Arrays;
+import java.util.Arrays;  
 
 public class _2_MinimumPlatforms {
 
