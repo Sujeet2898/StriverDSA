@@ -25,7 +25,7 @@ Explanation:
 Total maximum value of item we can have is 160.00 from the given capacity of sack.
  */
 
-import java.util.Arrays;
+import java.util.Arrays;  
 import java.util.Comparator;
 
 public class _4_FractionalKnapsack {
