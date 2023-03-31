@@ -78,7 +78,7 @@ public class _3_JobSequencingProblem {
         for (int i = 0; i < n; i++) {
             // whenever we get job id, we are trying to perform as late as possible i.e try from last day till first day
             for (int j = arr[i].deadline; j > 0; j--) {
-
+  
                 // if empty day is found, perform job on that day
                 if (result[j] == -1) {
                     result[j] = i;
