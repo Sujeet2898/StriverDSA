@@ -29,7 +29,7 @@ public class _5_FindMinimumNumberOfCoins {
         int n = denomination.length;
 
         for (int i = n - 1; i >= 0; i--){
-            while (amount >= denomination[i]){
+            while (amount >= denomination[i]){  
                 amount -= denomination[i];
                 ans.add(denomination[i]);
             }
