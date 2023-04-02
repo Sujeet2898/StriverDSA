@@ -28,7 +28,7 @@ public class _2_SubsetsII {
 
         findSubsets(arr, 0, new ArrayList<>(), ansList);
 
-        return ansList;
+        return ansList;  
     }
 
     private static void findSubsets(int[] arr, int idx, ArrayList<Integer> curr, ArrayList<ArrayList<Integer>> ansList) {
