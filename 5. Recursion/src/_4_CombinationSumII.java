@@ -57,7 +57,7 @@ Reason: if we have x combinations then space will be x*k where k is the average 
         for(int i = idx; i < arr.length ; i++){
 
             // make a choice (add the number at index)
-            curr.add(arr[i]);
+            curr.add(arr[i]);  
 
             // backtrack (generate dependent subsets)
             findSubsets(arr,target - arr[i],i+1, curr, ansList);
