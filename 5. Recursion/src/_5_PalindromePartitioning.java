@@ -32,7 +32,7 @@ palindromes and if we have x such list of palindromes in our final answer.
 
     private static void solve(String str, ArrayList<ArrayList<String>> ansList, ArrayList<String> list){
 
-        if(str.length() == 0){
+        if(str.length() == 0){  
             ansList.add(new ArrayList<>(list));
             return;
         }
