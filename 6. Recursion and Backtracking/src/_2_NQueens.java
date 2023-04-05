@@ -32,7 +32,7 @@ public class _2_NQueens {
     }
 
     private static boolean isSafe(char[][] board, int row, int col) {
-        int duprow = row;
+        int duprow = row;  
         int dupcol = col;
         while (row >= 0 && col >= 0) {
             if (board[row][col] == 'Q'){
