@@ -28,7 +28,7 @@ Output:       [["5","3","4","6","7","8","9","1","2"],
                ["3","4","5","2","8","6","1","7","9"]]
  */
 
-public class _3_SudokuSolver {
+public class _3_SudokuSolver {  
 
     // Time Complexity: O(9(n ^ 2)), in the worst case, for each cell in the n2 board, we have 9 possible numbers.
     // Space Complexity: O(1), since we are refilling the given board itself, there is no extra space required, so constant space complexity.
