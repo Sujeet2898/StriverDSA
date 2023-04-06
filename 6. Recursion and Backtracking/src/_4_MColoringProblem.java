@@ -29,7 +29,7 @@ Function will be contain 2-D graph not the edges.
 
 import java.util.ArrayList;
 
-public class _4_MColoringProblem {
+public class _4_MColoringProblem {  
 
     // Time Complexity: O(M^N)  --> This is because for each node, there are M possibilities to color it and there are N nodes, which gives us M *...* M (N times) = M ^ N.
     // Space Complexity: O(N) --> Because we make an array of size N for storing the colors of each vertex.
