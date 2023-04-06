@@ -28,7 +28,7 @@ Note: In case of no path, return an empty list. The driver will output "-1" auto
 
 import java.util.ArrayList;
 
-public class _5_RatInAMazeProblem {
+public class _5_RatInAMazeProblem {  
 
     // Time Complexity: O(4^(n^2)), because on every cell we need to try 4 different directions.
     // Space Complexity: O(n^2) ,Maximum Depth of the recursion tree(auxiliary space).
