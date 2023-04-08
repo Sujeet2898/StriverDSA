@@ -31,7 +31,7 @@ public class _6_WordBreak {
 
         //Step 2 : Iterate through the string s to generate substring and check if that substring is present in dictionary or not
         seen[0] = true;
-        for(int i = 1; i <= s.length(); i++){
+        for(int i = 1; i <= s.length(); i++){  
             for(int j = 0; j < i; j++){
 
                 // check if a substring is contained in dictionary then mark the j th position is visited so for next segment in string s we can check seen array and proceed
