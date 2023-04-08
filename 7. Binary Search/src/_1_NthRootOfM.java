@@ -30,7 +30,7 @@ public class _1_NthRootOfM {
                 low = mid;
             }
         }
-        return (high + low) / 2;
+        return (high + low) / 2;  
     }
 
 /*
