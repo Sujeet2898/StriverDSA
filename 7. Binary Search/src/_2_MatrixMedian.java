@@ -24,7 +24,7 @@ Output 2:
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class _2_MatrixMedian {
+public class _2_MatrixMedian {  
 
     // Naive Approach
     // Time Complexity: O((N * M) * log(N * M)), where ‘N’ is the number of rows and ‘M’ is the number of columns in the given matrix.
