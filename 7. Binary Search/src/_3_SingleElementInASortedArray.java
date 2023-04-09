@@ -31,7 +31,7 @@ public class _3_SingleElementInASortedArray {
 
     // Using Binary Search
     // Time Complexity: O(NlogN)
-    // Space Complexity: O(1)
+    // Space Complexity: O(1)  
 
     public int singleNonDuplicate2(int[] nums) {
         int low = 0; // first
