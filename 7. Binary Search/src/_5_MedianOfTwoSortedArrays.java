@@ -32,7 +32,7 @@ public class _5_MedianOfTwoSortedArrays {
         int[] merged = new int[nums1.length + nums2.length];
         merged = merge(nums1, nums2, merged);
 
-        return findMedian(merged);
+        return findMedian(merged);  
     }
 
     private static double findMedian(int[] arr) {
