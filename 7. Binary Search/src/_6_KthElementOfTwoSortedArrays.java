@@ -29,7 +29,7 @@ Your Task:
 You don't need to read input or print anything. Your task is to complete the function kthElement() which takes the arrays
 arr1[], arr2[], its size N and M respectively and an integer K as inputs and returns the element at the Kth position.
  */
-
+  
 public class _6_KthElementOfTwoSortedArrays {
 
     // Merge sort Approach
