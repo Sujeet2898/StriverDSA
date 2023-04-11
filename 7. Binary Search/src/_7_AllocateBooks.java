@@ -30,7 +30,7 @@ Output 2:
 
 import java.util.ArrayList;
 
-public class _7_AllocateBooks {
+public class _7_AllocateBooks {  
 
     // Binary Search Approach
     // Time Complexity: O(NlogN) --> Binary search takes O(log N). For every search, we are checking if an allocation is possible or not. Checking for allocation takes O(N).
