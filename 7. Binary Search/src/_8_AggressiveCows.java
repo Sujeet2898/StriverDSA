@@ -31,7 +31,7 @@ public class _8_AggressiveCows {
                 ans = Math.max(ans, d);
             }
         }
-        return ans;
+        return ans;  
     }
 
     private static boolean isPossible1(int[] arr, int N, int C, int minDistance){  // minDistance --> d
