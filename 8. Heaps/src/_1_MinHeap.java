@@ -32,7 +32,7 @@ public class _1_MinHeap {
     }
 
     boolean isEmpty(){
-        return heap.size() == 0;
+        return heap.size() == 0;  
     }
 
     int size(){
