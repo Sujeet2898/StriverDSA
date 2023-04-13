@@ -32,7 +32,7 @@ public class _2_MaxHeap {
     }
 
     boolean isEmpty() {
-        return heap.size() == 0;
+        return heap.size() == 0;  
     }
 
     int getSize() {
