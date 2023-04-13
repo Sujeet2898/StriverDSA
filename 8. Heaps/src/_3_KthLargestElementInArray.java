@@ -32,7 +32,7 @@ public class _3_KthLargestElementInArray {
     // space complexity should not be more than O(k).
 
     public int findKthLargest2(int[] nums, int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>();  
 
         for (int i = 0; i < nums.length; i++){
 
