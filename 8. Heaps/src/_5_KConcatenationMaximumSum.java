@@ -32,7 +32,7 @@ public class _5_KConcatenationMaximumSum {
 
             // Join the incoming train if it is +ve
             if (currentSum >= 0) {
-                currentSum += arr[i];
+                currentSum += arr[i];  
             } else {
                 // Form a new train if the incoming train is -ve
                 currentSum = arr[i];
