@@ -32,7 +32,7 @@ public class _4_KthSmallestElementInArray {
     // Time complexity should be O(n * logk)
     // space complexity should not be more than O(k).
 
-    public int findKthSmallest2(int[] nums, int k) {
+    public int findKthSmallest2(int[] nums, int k) {  
 
         // Max Priority Queue
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
