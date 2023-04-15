@@ -31,7 +31,7 @@ public class MedianPriorityQueue {
             if (min.size() > 0 && val > min.peek()) {
                 min.add(val);
 
-            } else {
+            } else {  
 
                 // Generally adding is done on Max PriorityQueue
                 max.add(val);
