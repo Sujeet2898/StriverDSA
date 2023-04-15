@@ -31,7 +31,7 @@ public class _6_kMaximumSumCombinationsFromTwoArrays {
         // max heap.
         PriorityQueue<Integer> pq = new PriorityQueue<Integer>(Collections.reverseOrder());
 
-        // Insert all the possible combinations in max heap.
+        // Insert all the possible combinations in max heap.  
         for (int i = 0; i < N; i++)
             for (int j = 0; j < N; j++)
                 pq.add(arr1[i] + arr2[j]);
