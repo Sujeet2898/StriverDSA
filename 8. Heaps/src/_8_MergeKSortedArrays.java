@@ -31,7 +31,7 @@ public class _8_MergeKSortedArrays {
             return this.value - other.value;      // 'this' means Pair1 & 'other' means Pair2
         }                                         // +ve ->  Pair1 > Pair2
     }                                             // -ve ->  Pair1 < Pair2
-                                                  // 0 ->  Pair1 = Pair2
+                                                  // 0 ->  Pair1 = Pair2  
 
     public static ArrayList<Integer> mergeKSortedArrays(ArrayList<ArrayList<Integer>> input){
         ArrayList<Integer> output = new ArrayList<>();
