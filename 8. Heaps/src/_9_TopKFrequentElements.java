@@ -52,7 +52,7 @@ public class _9_TopKFrequentElements {
     // Using maxHeap
     // Time complexity: O(N * LOG(N)), where 'N' is the size of the input array.
     // Reason: Building hash map takes O(N) and, in the worst case, building heap will take O(N * LOG(N)) time as adding an element to heap takes LOG(N) time. Hence, the total time complexity is O(N * LOG(N)).
-    // Space complexity: O(N) --> The Hash map and the heap can have at most N elements. Hence, the total space complexity is O(N).
+    // Space complexity: O(N) --> The Hash map and the heap can have at most N elements. Hence, the total space complexity is O(N).  
 
     public int[] topKFrequent2(int[] nums, int k) {
         if (k == nums.length) {
