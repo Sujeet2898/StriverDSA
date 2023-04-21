@@ -32,7 +32,7 @@ public class _1_ImplementStackUsingArrays {
         // So, top(-1) + 1 will be zero
     }
 
-    public int top() throws StackEmptyException{
+    public int top() throws StackEmptyException{  
         if (size() == 0){
             // StackEmptyException
             StackEmptyException e = new StackEmptyException();
