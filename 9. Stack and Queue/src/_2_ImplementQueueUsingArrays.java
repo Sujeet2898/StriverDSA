@@ -32,7 +32,7 @@ public class _2_ImplementQueueUsingArrays {
         return size == 0;
     }
 
-    int front() throws QueueEmptyException {
+    int front() throws QueueEmptyException {  
         if (size == 0){
             throw new QueueEmptyException();
         }
