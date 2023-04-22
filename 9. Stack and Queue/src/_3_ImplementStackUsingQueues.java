@@ -30,7 +30,7 @@ myStack.empty(); // return False
 
 Time Complexity: Only push is O(n), others are O(1).
 Space Complexity: O(2N) --> 2 queues are used
-
+  
  */
 
 import java.util.LinkedList;
