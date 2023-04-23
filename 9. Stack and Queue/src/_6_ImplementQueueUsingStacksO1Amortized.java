@@ -32,7 +32,7 @@ public class _6_ImplementQueueUsingStacksO1Amortized {
         }
         else{
             while(!input.isEmpty()){
-                output.push(input.pop());
+                output.push(input.pop());  
             }
             ans = output.pop();
         }
