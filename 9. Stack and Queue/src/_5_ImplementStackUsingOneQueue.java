@@ -31,7 +31,7 @@ public class _5_ImplementStackUsingOneQueue {
     }
 
     public int top() {
-        return queue.peek();
+        return queue.peek();  
     }
 
     public boolean empty() {
