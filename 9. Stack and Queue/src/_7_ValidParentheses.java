@@ -68,5 +68,5 @@ public class _7_ValidParentheses {
 
         // If stack is empty, string is valid.
         return stack.isEmpty();
-    }
+    }  
 }
