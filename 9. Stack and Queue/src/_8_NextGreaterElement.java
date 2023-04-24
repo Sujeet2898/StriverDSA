@@ -31,7 +31,7 @@ public class _8_NextGreaterElement {
             res[i] = -1;
             for(int j = i + 1; j % nums.length < nums.length && j < 2 * nums.length; j++){
                 if(nums[j % nums.length] > nums[i]){
-                    res[i] = nums[j % nums.length];
+                    res[i] = nums[j % nums.length];  
                     break;
                 }
             }
